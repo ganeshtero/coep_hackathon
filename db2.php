@@ -4,6 +4,9 @@ $db['db_host'] = "localhost:3307";
 $db['db_user'] = "root";
 $db['db_pass'] = "";
 $db['db_name'] = "saverx";
+echo "<h2>PHP is Fun!</h2>";
+echo "Hello Krish!<br>";
+
 
 foreach($db as $key => $value){
 define(strtoupper($key), $value);
